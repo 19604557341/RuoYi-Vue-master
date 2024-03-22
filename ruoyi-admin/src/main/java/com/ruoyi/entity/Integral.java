@@ -1,4 +1,4 @@
-package rouyi.entity;
+package com.ruoyi.entity;
 
 import lombok.Data;
 

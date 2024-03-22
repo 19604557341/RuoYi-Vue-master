@@ -1,7 +1,8 @@
-package rouyi.dto;
+package com.ruoyi.dto;
 
+import com.ruoyi.entity.Problem;
 import lombok.Data;
-import rouyi.entity.Problem;
+
 
 @Data
 public class ProblemDto extends Problem {

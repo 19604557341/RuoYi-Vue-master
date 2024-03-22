@@ -1,7 +1,8 @@
-package rouyi.dto;
+package com.ruoyi.dto;
 
+import com.ruoyi.entity.Paper;
 import lombok.Data;
-import rouyi.entity.Paper;
+
 
 @Data
 public class PaperDto extends Paper {

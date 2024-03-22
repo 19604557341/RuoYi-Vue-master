@@ -1,8 +1,8 @@
-package rouyi.mapper;
+package com.ruoyi.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ruoyi.entity.Integral;
 import org.apache.ibatis.annotations.Mapper;
-import rouyi.entity.Integral;
 
 @Mapper
 public interface IntegralMapper extends BaseMapper<Integral> {

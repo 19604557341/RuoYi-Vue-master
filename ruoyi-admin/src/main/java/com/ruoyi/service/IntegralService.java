@@ -1,7 +1,7 @@
-package rouyi.service;
+package com.ruoyi.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import rouyi.entity.Integral;
+import com.ruoyi.entity.Integral;
 
 
 public interface IntegralService extends IService<Integral> {

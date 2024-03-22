@@ -1,10 +1,11 @@
-package rouyi.common;
+package com.ruoyi.common;
 
 
+import com.ruoyi.entity.Client;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
-import rouyi.entity.Client;
+
 
 import javax.crypto.SecretKey;
 import java.util.Date;
@@ -15,7 +16,7 @@ public class JwtUtilController {
         Client client = new Client();
         String username = client.getPhone();
 
-        long expirationTime = 86400000;
+        long expirationTime = 7 * 24 * 60 * 60 * 1000L;
         Date now = new Date();
         Date expiration = new Date(now.getTime() + expirationTime);
         SecretKey SECRET_KEY = Keys.secretKeyFor(SignatureAlgorithm.HS256);

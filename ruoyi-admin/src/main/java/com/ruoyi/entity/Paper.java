@@ -1,4 +1,4 @@
-package rouyi.entity;
+package com.ruoyi.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;

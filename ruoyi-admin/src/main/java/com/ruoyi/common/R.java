@@ -1,4 +1,4 @@
-package rouyi.common;
+package com.ruoyi.common;
 
 import lombok.Data;
 

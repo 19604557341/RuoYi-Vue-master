@@ -1,8 +1,8 @@
-package rouyi.mapper;
+package com.ruoyi.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ruoyi.entity.Problem;
 import org.apache.ibatis.annotations.Mapper;
-import rouyi.entity.Problem;
 
 @Mapper
 public interface ProblemMapper extends BaseMapper<Problem> {

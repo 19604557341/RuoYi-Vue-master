@@ -1,18 +1,18 @@
-package rouyi.controller;
+package com.ruoyi.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.ruoyi.common.JwtUtilController;
+import com.ruoyi.common.R;
+import com.ruoyi.dto.ProblemDto;
+import com.ruoyi.entity.Client;
+import com.ruoyi.service.ClientService;
+import com.ruoyi.service.IntegralService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
-import rouyi.common.JwtUtilController;
-import rouyi.common.R;
-import rouyi.dto.ProblemDto;
-import rouyi.entity.Client;
-import rouyi.service.IntegralService;
-import rouyi.service.ClientService;
 
 import javax.servlet.http.HttpServletRequest;
 

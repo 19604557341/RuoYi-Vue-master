@@ -1,7 +1,7 @@
-package rouyi.service;
+package com.ruoyi.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import rouyi.entity.Client;
+import com.ruoyi.entity.Client;
 
 public interface ClientService extends IService<Client> {
 }

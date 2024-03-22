@@ -1,10 +1,12 @@
-package rouyi.service.impl;
+package com.ruoyi.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.ruoyi.entity.Subject;
+import com.ruoyi.mapper.SubjectMapper;
+import com.ruoyi.service.SubjectService;
 import org.springframework.stereotype.Service;
-import rouyi.entity.Subject;
-import rouyi.mapper.SubjectMapper;
-import rouyi.service.SubjectService;
+
+
 
 @Service
 public class SubjectServiceImpl extends ServiceImpl<SubjectMapper, Subject> implements SubjectService {

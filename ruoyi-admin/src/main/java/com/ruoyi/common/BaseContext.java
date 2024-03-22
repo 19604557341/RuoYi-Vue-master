@@ -1,4 +1,4 @@
-package rouyi.common;
+package com.ruoyi.common;
 
 /**
  * 基于ThreadLocal封装工具类，用户保存和获取当前登录用户id

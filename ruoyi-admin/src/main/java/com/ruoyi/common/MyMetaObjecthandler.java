@@ -1,4 +1,4 @@
-package rouyi.common;
+package com.ruoyi.common;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import lombok.extern.slf4j.Slf4j;
