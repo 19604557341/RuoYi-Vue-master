@@ -58,6 +58,7 @@ public class ClientController {
         }
 
         String jwtToken = jwtUtilController.generateJwtToken(client.getClientId());
+        request.getSession().setAttribute("token", jwtToken);
         return R.success(jwtToken);
     }
 
@@ -180,6 +181,7 @@ public class ClientController {
      */
     @PostMapping("/logout")
     public R<String> logout(HttpServletRequest request) {
+        request.getSession().removeAttribute("token");
         request.getSession().removeAttribute("client");
         return R.success("成功退出");
     }
